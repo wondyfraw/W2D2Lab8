@@ -31,7 +31,7 @@ const count = (function () {
 
 count.add();
 count.add();
-console.log(count.getCounter());
+console.log("COunter" +count.getCounter());
 count.reset();
 
 //Q8

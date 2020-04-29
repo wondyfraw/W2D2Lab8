@@ -1,0 +1,7 @@
+
+//Q7
+The free variables in the add is "couter"
+
+//Q9
+Module pattern - IIFE
+declares and immediately calls an anonymous function
