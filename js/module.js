@@ -180,3 +180,18 @@ employee2.setNewAge(20);
 employee2.setNewSalary(2000);
 employee2.setAddress("North 1000 Stress Fair Field Iowa");
 console.log(employee2.EmployeeDetail());
+
+function  Person(firsname, lname, age) {
+    this.firstname = firsname;
+    this.lname = lname;
+    this.age = age;
+}
+
+const p = new Person("wrt", 'ayele', 30);
+console.log(p.firstname);
+Person.prototype.nationality = "Ethiopia";
+console.log(p.nationality);
+Person.prototype.sex = function () {
+       return "M";
+}
+console.log(p.sex());
